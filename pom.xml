@@ -6,24 +6,32 @@
 
     <groupId>com.dzer6</groupId>
     <artifactId>box-com-generators</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <packaging>jar</packaging>
 
     <name>junit-box-com-generators</name>
     <description>QuickCheck-style parameter suppliers for JUnit theories: box.com generators</description>
 
+    <distributionManagement>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>net.box</groupId>
             <artifactId>boxjavalibv2</artifactId>
-            <version>v3.0.10</version>
+            <version>3.1.7</version>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12-beta-1</version>
+            <version>4.12-beta-2</version>
         </dependency>
 
         <dependency>
